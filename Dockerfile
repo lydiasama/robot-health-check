@@ -6,8 +6,8 @@ RUN pip install robotframework
 RUN pip install robotframework-seleniumlibrary
 RUN pip install --upgrade urllib3
 
-COPY . /rotbotframework
-WORKDIR /rotbotframework
+COPY . /robotframework
+WORKDIR /robotframework
 RUN chmod +x run.sh
 
-CMD ["/rotbotframework/run.sh"]
+CMD ["/robotframework/run.sh"]
