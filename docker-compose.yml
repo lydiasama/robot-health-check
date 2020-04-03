@@ -6,5 +6,5 @@ services:
       - "./robots:/robotframework/robots"
       - "./:/robotframework"
     environment:
-      - ROBOT_TESTS=/rotbotframework/robots/
+      - ROBOT_TESTS=/robotframework/robots/
       - BROWSER=firefox
