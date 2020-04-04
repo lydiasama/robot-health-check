@@ -1,10 +1,10 @@
 version: '3.7'
-services: 
+services:
   robotframework:
     build: .
-    volumes: 
+    volumes:
       - "./robots:/robotframework/robots"
       - "./:/robotframework"
-    environment: 
+    environment:
       - ROBOT_TESTS=/robotframework/robots/
       - BROWSER=firefox
